@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 600px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 5px 0 15px;
+    color: #333;
+}
+
+h3 {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 70px;
+    resize: vertical;
+}
+
+p {
+    margin: 6px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
